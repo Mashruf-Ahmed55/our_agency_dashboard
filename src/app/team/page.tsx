@@ -1,10 +1,12 @@
-import { DashboardPage } from '@/components/dashboard/dashboard-page';
-import { DashboardLayout } from '@/components/layout/dashboard-layout';
+'use client';
 
-export default function Home() {
+import { DashboardLayout } from '@/components/layout/dashboard-layout';
+import { TeamPage } from '@/components/team/team-page';
+
+export default function Team() {
   return (
     <DashboardLayout>
-      <DashboardPage />
+      <TeamPage />
     </DashboardLayout>
   );
 }
