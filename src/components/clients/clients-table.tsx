@@ -269,9 +269,7 @@ export function ClientsTable() {
                 </div>
               </TableCell>
               <TableCell>
-                <Badge variant={getStatusBadgeVariant(client.status)}>
-                  {client.status}
-                </Badge>
+                <Badge>{client.status}</Badge>
               </TableCell>
               <TableCell>{client.projectTitle}</TableCell>
               <TableCell>
